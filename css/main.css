@@ -1,0 +1,106 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #212629;
+  color: white; }
+
+h2 {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 25px; }
+
+h3 {
+  font-size: 16px;
+  text-transform: uppercase;
+  text-align: center; }
+
+  h4{
+    color:#23afdd;
+  }
+
+#login-container {
+  margin: 0 auto;
+  border: 3px solid #1587AC;
+  border-radius: 6px;
+  width: 50%;
+  height: 70%;
+  margin-top: 3%;
+  padding: 15px;
+  text-align: center; }
+
+.button {
+  color: white;
+  font-weight: bold;
+  width: 150px;
+  height: 40px;
+  border: none;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 8px;
+  background: #a9e4f7;
+  /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #a9e4f7 0%, #0fb4e7 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #a9e4f7 0%, #0fb4e7 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #a9e4f7 0%, #0fb4e7 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a9e4f7', endColorstr='#0fb4e7',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */ }
+  .button:hover {
+    background: #13b1ef;
+    /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #13b1ef 0%, #007da0 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #13b1ef 0%, #007da0 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #13b1ef 0%, #007da0 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#13b1ef', endColorstr='#007da0',GradientType=1 );
+    /* IE6-9 fallback on horizontal gradient */ }
+
+form {
+  text-align: center;
+  padding-bottom: 20px; }
+  form label {
+    font-size: 12px;
+    padding: 10px; }
+  form input {
+    border-radius: 8px;
+    width: 250px;
+    height: 30px;
+    background-color: white;
+    font-size: 12px;
+    color: #212629;
+    padding-left: 15px; }
+    form input::placeholder {
+      background-color: white;
+      font-size: 12px;
+      color: #212629;
+      padding: 5px, 10px; }
+
+#footer-img {
+  margin-bottom: -1%;
+  margin-left: -1%;
+  margin-top: 3%; }
+
+#header-img {
+  margin-left: -1%;
+  margin-top: -1%; }
+
+#admin-container {
+  text-align: center;
+  margin-top: 60px; }
+  #admin-container h3 {
+    margin-top: 60px; }
+  #admin-container h2 {
+    margin-bottom: 60px;
+    line-height: 50px; }
+
+.fa-star {
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 1.2em;
+  margin: 0 auto;
+  color: #1587AC; }
+
+/*# sourceMappingURL=main.css.map */
