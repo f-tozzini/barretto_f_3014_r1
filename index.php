@@ -19,12 +19,18 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="stylesheet" href="css/main.css">
 <title>Welcome to the Finest Selection of Blu-rays on the internets!</title>
 </head>
 <body>
+
 <?php
 	include('includes/nav.html');
+?>
 
+<div class="button"><a href="admin/admin_login.php">LOGIN</div>
+
+<?php
 	if(!is_string($getMovies)){
 		while($row = mysqli_fetch_array($getMovies)){
 			echo "<img src=\"images/{$row['movies_cover']}\" alt=\"{$row['movies_title']}\">
